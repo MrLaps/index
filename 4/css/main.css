@@ -1,0 +1,105 @@
+body {
+    background-image: url('../images/knights-galore-white-grey.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 700px;
+    height: 50%;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: calc((100% - 700px)/2);
+    border-radius: 10px;
+}
+
+#formContainer {
+    padding: 0px;
+}
+
+#logoContainer>* {
+    display: inline-block;
+}
+
+#logoContainer {
+    padding-top: 10px;
+    margin-left: 31%;
+}
+
+#logoText {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.nameLine {
+    display: inline-block;
+}
+
+.nameLineText {
+    color: gray;
+    font-size: 18px;
+}
+
+input {
+    all: unset;
+    background-color: white;
+    height: 36px;
+    border-radius: 5px;
+    width: 168px;
+}
+
+.m-r-s {
+    margin-right: 20px;
+}
+
+.m-b-s {
+    margin-bottom: 20px;
+}
+
+.fullSizeInput {
+    width: 400px;
+}
+
+select {
+    all: unset;
+    background-color: white;
+    height: 36px;
+    border-radius: 5px;
+    width: 168px;
+}
+
+.select {
+    color: grey;
+}
+
+button {
+    all: unset;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(30, 105, 245);
+    color: white;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 5px;
+}
+select#year{
+    width: 60px;
+
+}
+select#month{
+    width: 60px;
+
+}
+select#day{
+    width: 60px;
+
+}
+div.nameLine.m-r-s.m-b-s{
+    width: 100px
+}
